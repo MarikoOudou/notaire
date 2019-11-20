@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('fonts/century-gothic-cufonfonts/GOTHICB.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    position: relative;
+    top: 8px;
+}
+
+.activer {
+    border-bottom: 6px solid #453022 !important;
+}
+
+.carousel-indicators>li {
+    border: 0px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carousel-caption h1 {
+    font-weight: bold !important;
+}
+
+.box-shadow-nav {
+    box-shadow: 0px 0px 6px #000;
+}
+
+.margin {
+    margin: 5%;
+}
+
+.bgColor-primary {
+    background-color: #453022;
+    color: white;
+}
+
+.primary {
+    color: #453022 !important;
+}
+
+.bgColor-nav {
+    color: #805A44 !important;
+    background-color: white !important;
+}
+
+.bgColor-gris {
+    background-color: #eee !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border: 2px solid #453022;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #453022 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.bordure-service {
+    display: inline-table;
+    border: 2px solid black;
+    width: 200px;
+    padding: 31px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.bordure-service:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.icon-rendez {
+    background: url('../imgs/services/1.svg');
+    width: 100px;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 20px #c3c3c3;
+}
+
+.bgColor-secondary {
+    background-color: #eee !important;
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+
+.footer-nav {
+    margin: auto;
+}
+
+.footer-nav ul {}
+
+.footer-nav ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #453022;
+}
+
+.footer-nav-lien {
+    font-weight: bold;
+    color: white !important;
+    font-size: 20px;
+}
+
+.footer-nav-lien:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.activa {
+    background-color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #453022 !important;
+}
+
+.footer-nav ul li:hover,
+.footer-nav ul li a:hover {
+    background-color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #453022 !important;
+}
+
+.card-entete {
+    background-color: white !important;
+    color: #453022;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+
+.bgColor-primary-decolor {
+    background-color: #BBB1AA !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.list-group-flush {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-group-flush .list-group-item {
+    border-bottom: 0px;
+    border-top: 0px;
+    background: none;
+    display: flex;
+    padding: 5px;
+}
+
+.icon-localisation {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.footer-tel {
+    color: black;
+}
+
+.footer-tel:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.line {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.trait {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 62%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -2px;
+    z-index: 999;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.bordure-service:hover {}
+
+.paragraphe {
+    font-size: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.img-competence {
+    width: 1.8em;
+    margin-right: 30px;
+}
+
+.bg-wood {
+    color: black;
+    font-weight: bold;
+    background-image: url('../imgs/footer/bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.souligne {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.question {
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+}
+
+.reponse {
+    width: 30px;
+}
+
+.titre {
+    width: 100%;
+}
+
+h1 {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    /*line-height: 26.4px;*/
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    max-height: 45px;
+    overflow: hidden;
+    height: 45px;
+}
